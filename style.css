@@ -1,1 +1,69 @@
+* {
+    box-sizing: border-box;  
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Roboto';
+    line-height: 25px;
+    background: rgb(241, 239, 239, 0.3);
+    padding: 30px;    
+  }
+
+  header  {    
+    border-bottom: 1px solid rgba(127, 9, 143, 0.3);
+}
+
+  article {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav {
+    padding: 20px;
+  }
+
+  .inf {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .objective p {
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: none;
+  }  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h1, h2 {
+    color: #a005b4;
+  }
+
+  h3 {
+    font-style: italic;
+  }
+  img {
+      width: 300px;
+  }
 
