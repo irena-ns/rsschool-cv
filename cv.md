@@ -15,4 +15,3 @@ Junior front-end developer with a great willing to improve skills and have as bi
 ## Language skills
 English: A2 – Pre-Intermediate level
 Russian: Native Language
-
