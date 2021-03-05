@@ -30,7 +30,7 @@
     border-bottom: 1px solid rgba(127, 9, 143, 0.3);
 }
 
-  article {
+  .container {
     display: flex;
     justify-content: space-around;
   }
@@ -60,10 +60,24 @@
     color: #a005b4;
   }
 
-  h3 {
+  h3, h4 {
     font-style: italic;
   }
-  img {
+  nav img {
       width: 300px;
+  }
+  
+  footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  footer img {
+      width: 80px;
+  }
+
+  .github_logo {
+      width: 50px;
   }
 
